@@ -1,0 +1,46 @@
+Before join this project should be follows this article: 
+Requirements
+Install UBUNTU
+Database
+MySQL 5.6
+PHP
+5.6.x
+Required PHP extensions:
+bc-math
+curl
+gd, ImageMagick 6.3.7 (or later) or both
+intl
+mbstring
+mcrypt
+mhash
+openssl
+PDO/MySQL
+SimpleXML
+soap
+xml
+xsl
+zip
+Ioncube
+Git Clone
+git@git02.smartosc.com:vietnhp/lottevec.git
+Database
+http://lotte.smartosc.com/db_bk_201608181900.sql.gz
+Media
+http://lotte.smartosc.com/media-lotte-uat.tar.gz
+Step by Step setup at local
+NOTE: Need setup environment as detail above
+Clone source code
+Import database: Change value base_url in table core_config_data
+Extract file Magento-EE-2.0.7-2016-05-24-01-01-55.tar
+Change infomation in file env.php
+Update file dev/tools/grunt/configs/themes.js
+Install Extension Sphinx
+http://jira.smartosc.com/secure/attachment/121245/install_Sphinx_search_ultimate.txt
+Run magento setup:upgrade ......
+Git Workflow
+Refer Git Workflow
+Document Project
+Refer Cloud 
+Technical Overview.pdf
+For FE
+
